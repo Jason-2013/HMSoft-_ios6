@@ -34,7 +34,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    self.title = @"HMSoft";
+    self.title = @"Smart Room";
     sensor = [[SerialGATT alloc] init];
     [sensor setup];
     sensor.delegate = self;
